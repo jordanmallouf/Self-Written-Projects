@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pagebg { /* Now some time has passed I realize i could have put the background color under the body*/
+  background-color: #f2edce;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+h2 {
+  font-family:'Oswald', sans-serif;
+  font-size: 18px;
+  color: #f2edce;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*first secttion*/
+
+.heading {
+  background-color: #3D393A;
+  padding: 3em;
+  text-align: center;
+}
+
+#title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  line-height: 1.2em;
+  color: #f2edce;
+}
+
+#sub-title {
+  margin-top: 1em;
+}
+
+#description {
+  color:#c9c7bf;
+}
+
+.img {
+  width: 200px; 
+  height: auto;
+  max-width: 100%;
+  margin: 1em;
+}
+
+/*second section*/
+
+.personal-info {
+  background-color: #74a4e3;
+  color:#f2edce;
+  padding: 1.5em 0; 
+}
+
+.personal-info__list {
+  list-style: none;
+  line-height: 1.7em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+}
+
+/*size of data box*/
+.personal-info__data {
+  width: 270px;
+  border-radius: 5px;
+  height: 21px;
+}
+
+/*third section*/
+
+.flight-details {
+  padding: 5px 0;
+  margin: 20px 0;
+}
+
+select {
+  width: 260px;
+}
+
+.options {
+  padding: 20px 0;
+}
+
+.food__list {
+  list-style: none;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.imgfood { 
+  width: 270px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 0; /*removes border around radio    options*/
+}
+
+legend {
+  font-family: 'Oswald', sans-serif;
+}
+
+.diet {
+  padding: 30px 0;
+}
+
+/*checkbox style*/
+.preferences {
+  list-style:none;
+  line-height: 30px;
+  padding: 20px 0;
+}
+
+
+/*comments box*/
+#comments {
+  width: 280px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.comments {
+  padding: 20px 0;
+  font-family: 'Oswald', sans-serif;
+} 
+
+#submit {
+  color: #f2f2f2;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #74a4e3;
+  padding: 0.50em 1.5em;
+  border-radius: 100px; 
+}
+
+@media (min-width:800px) {
+  
+h1 { 
+  font-size: 75px;
+}
+  
+h2 {
+  font-size: 30px;
+}
+  
+.heading {
+  padding: 1em;
+}
+  
+.container {
+  margin: 0 auto;
+  width: 700px;
+  max-width: 1100px;  
+}
+  
+.wrapper  {
+  width: 800px;
+  background-color: #faf8eb;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+  
+  
+#title {
+  font-size: 76px;
+  }
+  
+#sub-title {
+  font-size: 35px;
+  }
+
+  .personal-info {
+    padding: 1em;
+  }
+  
+.personal-info__list { 
+  font-size: 27px;
+  }
+  
+.personal-info__data {
+  height: 27px;
+  font-size: 16px;
+  }
+  
+#description {
+   line-height: 1.5em;
+   margin-top: 1em;
+  }
+  
+.flight-details {
+   padding: 1em 0 0 0;
+   margin: 0;
+  }
+  
+ .options {
+   padding: 4em 0 0 0;
+   margin: 0;
+  }
+  
+ .imgfood {
+   width: 600px;
+   max-width: 100%;
+  }
+  
+ #comments {
+   width: 600px;
+   height: 300px;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+  }
+}
